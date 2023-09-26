@@ -30,3 +30,11 @@ body{
 .d-flex{
     display: flex;
 }
+
+.primary-text{
+    color: var(--color-white);
+}
+
+.secondary-text{
+    color: var(--color-grey);
+}
