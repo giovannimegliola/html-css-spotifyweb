@@ -51,8 +51,12 @@ a {
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 .btn {
-    padding: 10px 20px;
+    padding: 10px 30px;
     color: var(--color-white);
     border: 1px solid white;
     border-radius: 20px;
@@ -60,6 +64,15 @@ a {
     
 }
 
+.px20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.py20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 /* CONTAINER */
 
@@ -79,6 +92,11 @@ main {
     background-color: var(--color-black);
 }
 
+#logo{
+    width: 60%;
+}
+
+
 #main-content {
     width: calc(100% - 250px);  
     overflow-y: auto;
@@ -86,7 +104,7 @@ main {
 }
 
 #call-to-action {
-    background-color: var(--color-dark-grey);
+    background-color: rgba(0, 0, 0, 0.6);
     width: calc(100% - 250px);
     height: 70px;
     position: fixed;
@@ -97,7 +115,7 @@ main {
 #playbar {
     width: 100%;
     height: 90px;
-    background-color: var(--color-grey);
+    background-color: var(--color-dark-grey);
     position: fixed;
     bottom: 0;
     left: 0;
