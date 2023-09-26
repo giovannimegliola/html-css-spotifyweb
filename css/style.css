@@ -31,6 +31,10 @@ body{
     display: flex;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 .reverse{
     flex-direction: row-reverse;
 }
@@ -102,6 +106,18 @@ main {
     overflow-y: auto;
     padding-top: 100px; 
 }
+
+
+.card-img {
+    width: 100%;
+}
+
+
+
+/*.card-text {
+    text-align: center;
+}
+*/
 
 #call-to-action {
     background-color: rgba(0, 0, 0, 0.6);
