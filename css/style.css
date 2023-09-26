@@ -31,12 +31,33 @@ body{
     display: flex;
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.center {
+    align-items: center;
+}
+
 .primary-text{
     color: var(--color-white);
 }
 
 .secondary-text{
     color: var(--color-grey);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: var(--color-white);
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 0.6em;
+    
 }
 
 
