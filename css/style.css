@@ -103,6 +103,14 @@ main {
 #side-bar {
     width: 250px;
     background-color: var(--color-black);
+    position: relative;
+}
+
+
+.install{
+    position: absolute;
+    bottom: 0;
+    left: auto;
 }
 
 
