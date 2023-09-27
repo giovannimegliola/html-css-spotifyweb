@@ -85,6 +85,8 @@ img{
 }
 
 
+
+
 /* CONTAINER */
 
 .wrapper {
@@ -102,6 +104,16 @@ main {
     width: 250px;
     background-color: var(--color-black);
 }
+
+
+#navbar a {
+    color: var(--color-grey);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+
+}
+
 
 #logo{
     width: 60%;
