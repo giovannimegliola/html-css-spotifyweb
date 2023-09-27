@@ -165,4 +165,41 @@ main {
     }
 
 };
+
+@media screen and (max-width:992px) {
+    .card{
+        width: calc(100% / 3);
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        width: calc(100% / 2);
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .display-none{
+        display: none;
+    }
+
+    #logo-small {
+        display: block;
+    }
+
+    #side-bar{
+        width: 100px;
+    }
+
+    #main-content {
+        width: calc(100% - 100px);
+    }
+
+    #call-to-action{
+        width: calc(100% - 100px);
+    }
+    
+}
     
