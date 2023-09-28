@@ -34,6 +34,7 @@ body{
 
 .secondary-text{
     color: var(--color-grey); 
+    font-size: 0.9em;
 }
 
 a {
@@ -60,6 +61,11 @@ ul{
 .py20 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.my10{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img{
@@ -105,8 +111,29 @@ main {
     position: relative;
 }
 
-.install{ 
-    height: 70px;
+#side-bar-top{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 80px);
+    overflow-y: hidden;
+}
+
+
+#side-bar-bottom{ 
+    height: 80px;
+}
+
+.icon{
+    width: 10%;
+    display: inline;
+}
+
+.fa-solid.fa-square-plus{
+    cursor: pointer;
+}
+
+.line{
+    border: 1px solid var(--color-grey);
 }
 
 #menu a {
@@ -115,6 +142,8 @@ main {
     line-height: 2;
     font-size: 0.9em;
 }
+
+
 
 #playlist a{
     color: var(--color-grey);
