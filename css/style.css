@@ -18,8 +18,7 @@
 
 body{
     background-color: var(--color-dark-color);
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 
@@ -29,36 +28,17 @@ body{
     border: 1px solid white;
 }
 
-.d-flex{
-    display: flex;
-}
-
-.space-between{
-    justify-content: space-between;
-}
-
-.reverse{
-    flex-direction: row-reverse;
-}
-
-.center {
-    justify-content: center;
-}
-
 .primary-text{
     color: var(--color-white);
 }
 
 .secondary-text{
-    color: var(--color-grey);
-    
+    color: var(--color-grey); 
 }
 
 a {
     text-decoration: none;
 }
-
-
 
 ul{
     list-style: none;
@@ -88,7 +68,23 @@ img{
 }
 
 
+/* FLEX TOOLS */
 
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.center {
+    justify-content: center;
+}
 
 /* CONTAINER */
 
@@ -109,12 +105,9 @@ main {
     position: relative;
 }
 
-
-.install{
-    
+.install{ 
     height: 70px;
 }
-
 
 #menu a {
     color: var(--color-grey);
@@ -130,29 +123,23 @@ main {
     font-size: 0.9em;
 }
 
-
-
 #navbar a {
     color: var(--color-grey);
     text-decoration: none;
     padding: 5px 20px;
     display: block;
     font-size: 0.9em;
-
 }
-
 
 #logo{
     width: 60%;
 }
-
 
 #main-content {
     width: calc(100% - 250px);  
     overflow-y: auto;
     padding-top: 100px; 
 }
-
 
 .card  {
     width: calc(100% / 6);
@@ -162,14 +149,41 @@ main {
 }
 
 
+.card-text {
+    text-align: center;
+}
 
-.small-img{
-    width: 20%;
+.card-img{
+    position: relative;
+}
+
+.card-img i {
+    font-size: 2.5em;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.7s;
+
 }
 
 
-.card-text {
-    text-align: center;
+.card:hover .overlay{
+    opacity: 1;
+}
+
+
+.small-img{
+    width: 20%;
 }
 
 
@@ -192,8 +206,6 @@ main {
     z-index: 1000;
 
 }
-
-
 
 
 /* MEDIA QUERY */
