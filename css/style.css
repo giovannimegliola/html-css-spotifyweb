@@ -22,6 +22,7 @@ body{
     line-height: 1.5;
 }
 
+
 /* UTILITY */
 
 .debug{
@@ -56,6 +57,8 @@ body{
 a {
     text-decoration: none;
 }
+
+
 
 ul{
     list-style: none;
@@ -108,17 +111,33 @@ main {
 
 
 .install{
-    position: absolute;
-    bottom: 0;
-    left: auto;
+    
+    height: 70px;
 }
+
+
+#menu a {
+    color: var(--color-grey);
+    text-decoration: none;
+    line-height: 2;
+    font-size: 0.9em;
+}
+
+#playlist a{
+    color: var(--color-grey);
+    text-decoration: none;
+    line-height: 2;
+    font-size: 0.9em;
+}
+
 
 
 #navbar a {
     color: var(--color-grey);
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
     display: block;
+    font-size: 0.9em;
 
 }
 
@@ -139,6 +158,7 @@ main {
     width: calc(100% / 6);
     min-width: 100px;
     padding: 0 20px 10px 0;
+    cursor: pointer;
 }
 
 
@@ -172,6 +192,9 @@ main {
     z-index: 1000;
 
 }
+
+
+
 
 /* MEDIA QUERY */
 

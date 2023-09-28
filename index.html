@@ -1,52 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@400;500&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify Web</title>
 </head>
+
 <body>
+
     <div class="wrapper primary-text">
+
+        <!--Call to action-->
 
         <div id="call-to-action" class="d-flex reverse">
             <div class="py20 px20">
-                <a href="#" class="btn"> EFFETTUA L'UPGRADE</a>
+                <a href="#" class="btn"> EFFETTUA L'UPGRADE </a>
             </div>
         </div>
 
+
         <main class="d-flex">
+
+        <!--Side bar-->    
+
             <nav id="side-bar" class="px20">
 
                 <div id="logo" class="py20">
                     <img src="img/logo.svg" alt="logo Spotify">
                 </div>
 
-                <div class="secondary-text py20">
+                <div id="menu" class="secondary-text py20">
                     <ul>
-                        <li>Home</li>
-                        <li>Cerca</li>
-                        <li>La tua libreria</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Cerca</a></li>
+                        <li><a href="">La tua libreria</a></li>
                     </ul>
                 </div>
 
-                <div class="py20">
+                <div id="playlist" class="py20">
                     <h4>PLAYLIST</h4>
                     <ul class="secondary-text py20">
-                        <li>Crea Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
+                        <li> <a href="">Crea Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
                     </ul>
+                </div>
 
-                    <div class="install">
+
+                <div class="install">
                         <div class="secondary-text">
                             Installa app
                         </div>
@@ -54,23 +66,16 @@
                         <div class="primary-text">
                             John Doe
                         </div>
-                    </div>
-
-                    
-
-
-
                 </div>
-
-
 
             </nav>
 
+                
             <section id="main-content">
 
-                <div id="navbar" class="secondary-text d-flex center">
+        <!--Nav bar-->  
 
-                
+                <div id="navbar" class="secondary-text d-flex center">
 
                     <ul class="d-flex wrap">
                         <li> <a href="">IN EVIDENZA</a></li>
@@ -80,12 +85,10 @@
                         <li><a href="">NUOVE USCITE</a></li>
                         <li><a href="">SCOPRI</a></li>
                     </ul>
-
-                    
-                    
+                 
                 </div>
 
-                
+        <!--Recently-->        
 
                 <div class="py20 px20">
 
@@ -95,7 +98,12 @@
 
                         <div class="card px20">
                             <div class="card-img">
-                                <img src="img/metal_lifting.jpg" alt="heavy metal">
+                                <div>
+                                    <div class="hover relative">
+                                        <i class="fa-regular fa-circle-play"></i>
+                                    </div>
+                                    <img src="img/metal_lifting.jpg" alt="heavy metal">
+                                </div>                                
                             </div>
                             <div class="card-text primary-text">
                                 Heavy Metal
@@ -169,8 +177,9 @@
                     </div>
 
                     
-
                 </div>
+
+        <!--For you-->       
 
                 <div class="px20 py20">
 
@@ -199,7 +208,9 @@
                                 Daily Mix 1
                             </div>
                         </div>
-                    </div>    
+                    </div>  
+                    
+        <!--Most popular-->              
 
                     <div class="py20">
 
@@ -231,6 +242,9 @@
 
             </section>
         </main>
+
+
+        <!--Playbar-->  
 
         <div id="playbar" class="d-flex space-between">
 
