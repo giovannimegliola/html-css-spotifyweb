@@ -261,7 +261,10 @@ main {
 .playbar-center{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 .playbar-right{
     display: flex;
@@ -273,6 +276,28 @@ main {
     
 }
 
+input[type="range"] {
+    -webkit-appearance: none;
+    background-color: #ddd;
+    height:3px;
+    width: 400px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #666;
+    height: 3px;
+    opacity: 0.6;
+    width: 10px;
+}
+
+
+
+.playbar-right input[type="range"] {
+    -webkit-appearance: none;
+    background-color: #ddd;
+    height:3px;
+    width: 150px;
+}
 
 /* MEDIA QUERY */
 
