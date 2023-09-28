@@ -58,6 +58,11 @@ ul{
     padding-right: 20px;
 }
 
+.px10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .py20 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -88,8 +93,12 @@ img{
     flex-direction: row-reverse;
 }
 
-.center {
+.center-x {
     justify-content: center;
+}
+
+.center-y {
+    align-items: center;
 }
 
 /* CONTAINER */
@@ -159,6 +168,8 @@ main {
     display: block;
     font-size: 0.9em;
 }
+
+
 
 #logo{
     width: 60%;
@@ -233,7 +244,29 @@ main {
     bottom: 0;
     left: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.playbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.playbar-center{
+    display: flex;
+    align-items: center;
+}
+
+.playbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.playbar-left img{
+    width: 100px;
+    
 }
 
 

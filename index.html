@@ -64,14 +64,14 @@
                 <div id="side-bar-bottom">
                         <div class="secondary-text">
                             <img src="img/download.svg" alt="download" class="icon">
-                            <span>Installa app</span>
+                            <span class="px10">Installa app</span>
                         </div>
 
                         <div class="line my10"></div>
     
                         <div class="primary-text">
                             <img src="img/profile.svg" alt="profile" class="icon"> 
-                            <span>John Doe</span>
+                            <span class="px10">John Doe</span>
                         </div>
                 </div>
 
@@ -82,7 +82,7 @@
 
         <!--Nav bar-->  
 
-                <div id="navbar" class="secondary-text d-flex center">
+                <div id="navbar" class="secondary-text d-flex center-x">
 
                     <ul class="d-flex wrap">
                         <li> <a href="">IN EVIDENZA</a></li>
@@ -286,31 +286,42 @@
 
         <!--Playbar-->  
 
-        <div id="playbar" class="d-flex space-between">
+        <div id="playbar">
 
-            <div class="d-flex">
-                <div class=" small-img">
-                    <img src="img/sinister.jpeg" alt="sinister" class="px20 py20">
-                </div>
+            <div class="playbar-left">
+                
+                <img src="img/sinister.jpeg" alt="sinister" class="px20 py20 ">
                 
                 <div class="px20 py20">
                     Sinister
                 </div>
-                <div class="px20 py20">
-                    icone
-                </div>
+                <i class="fa-regular fa-heart px20"></i>
+                <i class="fa-regular fa-folder"></i>
+                
             </div>
 
             
-                <div class="py20 px20">
-                    <input type="range" id="volume" name="volume" min="0" max="10" />
+            <div class="playbar-center">
+
+                    
+                        <i class="fa-solid fa-shuffle px20"></i>
+                        <i class="fa-solid fa-backward-step px20"></i>
+                        <i class="fa-regular fa-circle-play fa-xl px20"></i>
+                        <i class="fa-solid fa-forward-step px20"></i>
+                        <i class="fa-solid fa-rotate-right px20"></i>
+                    
+
                    
-                </div>
+            </div>
                   
            
 
-            <div>
-                content right
+            <div class= "playbar-right">
+
+                    <i class="fa-solid fa-list px20"></i>
+                    <i class="fa-solid fa-desktop px20"></i>
+                    <i class="fa-solid fa-volume-high px20"></i>
+
             </div>
 
         </div>
