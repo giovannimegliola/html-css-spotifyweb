@@ -78,6 +78,10 @@ img{
     display: block;
 }
 
+i{
+    cursor: pointer;
+}
+
 
 /* FLEX TOOLS */
 
